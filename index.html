@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web workers</title>
+  </head>
+  <body>
+    <h1>How to play with WebWorkers</h1>
+
+    <div>
+      Toggle the <b>"Enable Worker"</b> option, then click on
+      <b>"Heavy Computed Task"</b> followed by <b>"Discreet Task"</b>.
+    </div>
+
+    <br />
+    <hr />
+    <br />
+    <fieldset>
+      <legend>Options:</legend>
+      <h2>
+        <input type="checkbox" id="enableWorker" style="cursor: pointer" />
+        <label for="enableWorker">Enable Worker</label>
+      </h2>
+
+      <h3>Click on the below options to perform</h3>
+      <ul>
+        <li>
+          <button
+            class="heavy"
+            style="border: none; color: blue; background-color: white"
+          >
+            Heavy Computed Task
+          </button>
+        </li>
+        <li>
+          <button
+            class="discreet"
+            style="border: none; color: blue; background-color: white"
+          >
+            Discreet Task
+          </button>
+        </li>
+      </ul>
+    </fieldset>
+  </body>
+  <script src="./myscript.js"></script>
+</html>
